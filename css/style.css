@@ -1,0 +1,258 @@
+body {
+    font-family: 'roboto';
+}
+
+/*
+ANIMAÇAO SCROLL
+*/
+
+.anime {
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .5s;
+}
+
+.anime-start {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+
+/*
+IMAGEM DO CABEÇALHO
+*/
+#imagemInicio{
+    height: 90vh;
+     background-image: url('../img/foto-header.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+
+/*
+NAVEGAÇÃO
+*/
+
+#menu{
+    background-color: #821ab7;
+}
+
+
+#menu ul {
+   display: flex;
+   flex-direction: row;
+    justify-content: flex-end;
+}
+
+#menu ul li:hover a {
+    background-color: #fff;
+    color: #821ab7;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 15px;  
+}
+
+/*
+MENU FIXO
+*/
+
+.menu-fixo{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+
+/*
+SOBRE
+*/
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0 140px 0;
+    position: relative;
+}
+
+#sobre h2{
+    padding: 10px;
+    
+}
+#sobre p{
+    text-align: center;
+    padding: 5px;
+}
+
+
+/*
+segunda imagem
+*/
+
+#segundaImagem {
+    background-image: url(../img/b94d61f8-5b17-4cc7-9333-cf2aeb57c34d.jpg);
+    height: 80vh;
+   background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+/*
+FESTA EM DESTAQUES
+*/
+#festaDestaque{
+    padding: 100px;
+    background-color: blueviolet;     
+}
+
+
+/*
+TERCEIRA IMAGEM
+*/
+
+#terceiraImagem{
+    background-image: url('../img/sebastian-ingrosso-live-tomorrowland-2013-hd-wallpaper-carpet-of-people-view-from-above.jpg');
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*
+FORMULARIO DE INDICAÇÃO
+*/
+
+#indique{
+    display: flex;
+    padding: 50px 0 50px 0;
+}
+
+/*
+DIV TEXTO INDICAÇÃO
+*/
+#indiqueTexto {
+    text-align: center;
+    width: 50%;
+}
+
+#indiqueTexto h2{
+    padding: 10px;
+    font-weight: 700;
+}
+
+
+/*
+FORM INDICAÇÃO
+*/
+
+#indiqueForm{
+ width: 50%   
+}
+#formularioIndique{
+    display: flex;
+      flex-direction: column;
+}
+
+
+/*
+QUARTA IMAGEM
+*/
+
+#quartaImagem{
+    background-image: url('../img/IMG_8301.jpg');
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*
+CONTATO
+*/
+
+#contato{
+    display: flex;
+    flex-direction: row-reverse
+}
+
+#divContato{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#divForm{
+    width: 50%;
+        
+    
+}
+
+#formContato{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+/*
+rodapé
+*/
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: dimgray;
+}
+
+/*
+BARRA DE CARREGAMENTO
+*/
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #2299dd;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 10px;
+}
+
+
+
+
+
+
+
+
+
